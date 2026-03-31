@@ -1,0 +1,118 @@
+{
+    "Radial Basis Function (Squared Exponential) \u03bb=(1,8)": {
+        "1": {
+            "log_likelihood": -21704.70398304082,
+            "n_predictions": 19200,
+            "description": "Length Scale: 1 Generator: Radial Basis Function (Squared Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.15774258816208547
+        },
+        "2": {
+            "log_likelihood": -21457.3768857268,
+            "n_predictions": 19200,
+            "description": "Length Scale: 2 Generator: Radial Basis Function (Squared Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.26407404700436077
+        },
+        "3": {
+            "log_likelihood": -23841.10629502226,
+            "n_predictions": 19200,
+            "description": "Length Scale: 3 Generator: Radial Basis Function (Squared Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.3405090284235201
+        },
+        "4": {
+            "log_likelihood": -28787.75111532475,
+            "n_predictions": 19200,
+            "description": "Length Scale: 4 Generator: Radial Basis Function (Squared Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.3792161483760865
+        },
+        "5": {
+            "log_likelihood": -27903.070613370583,
+            "n_predictions": 19200,
+            "description": "Length Scale: 5 Generator: Radial Basis Function (Squared Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.40768708334173986
+        },
+        "6": {
+            "log_likelihood": -30211.667026288313,
+            "n_predictions": 19200,
+            "description": "Length Scale: 6 Generator: Radial Basis Function (Squared Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.4183111080409634
+        },
+        "7": {
+            "log_likelihood": -30612.159991485947,
+            "n_predictions": 19200,
+            "description": "Length Scale: 7 Generator: Radial Basis Function (Squared Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.4273051745226276
+        },
+        "8": {
+            "log_likelihood": -31843.8376252849,
+            "n_predictions": 19200,
+            "description": "Length Scale: 8 Generator: Radial Basis Function (Squared Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.43507922782606717
+        }
+    },
+    "Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)": {
+        "1": {
+            "log_likelihood": -29823.299196659795,
+            "n_predictions": 19143,
+            "description": "Length Scale: 1 Generator: Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.20158489222156595
+        },
+        "2": {
+            "log_likelihood": -36987.557157254625,
+            "n_predictions": 19143,
+            "description": "Length Scale: 2 Generator: Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.3532513715962739
+        },
+        "3": {
+            "log_likelihood": -36850.49946911096,
+            "n_predictions": 19143,
+            "description": "Length Scale: 3 Generator: Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.41536427784028357
+        },
+        "4": {
+            "log_likelihood": -35471.75117602777,
+            "n_predictions": 19143,
+            "description": "Length Scale: 4 Generator: Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.4420087920704304
+        },
+        "5": {
+            "log_likelihood": -34849.1511510773,
+            "n_predictions": 19143,
+            "description": "Length Scale: 5 Generator: Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.4595958150046278
+        },
+        "6": {
+            "log_likelihood": -34361.92689832153,
+            "n_predictions": 19143,
+            "description": "Length Scale: 6 Generator: Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.47424031697648006
+        },
+        "7": {
+            "log_likelihood": -32737.14193155449,
+            "n_predictions": 19143,
+            "description": "Length Scale: 7 Generator: Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.48170417205713173
+        },
+        "8": {
+            "log_likelihood": -33164.40990003824,
+            "n_predictions": 19143,
+            "description": "Length Scale: 8 Generator: Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8)",
+            "tau2": 1.2788170864381179,
+            "pit_ks": 0.48348023542419083
+        }
+    }
+}

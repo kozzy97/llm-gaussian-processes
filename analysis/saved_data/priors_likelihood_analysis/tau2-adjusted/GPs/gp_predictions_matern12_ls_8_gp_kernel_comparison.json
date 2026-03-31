@@ -1,0 +1,58 @@
+{
+    "G: SE\nF: Matern\u00bd": {
+        "log_likelihood": -12268.757711883354,
+        "n_predictions": 19200,
+        "description": "Radial Basis Function (Squared Exponential) \u03bb=(1,8) (Generator) Mat\u00e9rn 1/2 (Exponential) (Fitter)",
+        "tau2": 0.09630149103529499,
+        "pit_ks": 0.49488763529595065
+    },
+    "G: Matern\u00bd\nF: Matern\u00bd": {
+        "log_likelihood": -12233.560892234758,
+        "n_predictions": 19200,
+        "description": "Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8) (Generator) Mat\u00e9rn 1/2 (Exponential) (Fitter)",
+        "tau2": 0.09630149103529499,
+        "pit_ks": 0.468445494237892
+    },
+    "G: SE\nF: Matern1\u00bd": {
+        "log_likelihood": -7510.276878570899,
+        "n_predictions": 19200,
+        "description": "Radial Basis Function (Squared Exponential) \u03bb=(1,8) (Generator) Mat\u00e9rn 3/2 (Fitter)",
+        "tau2": 0.09630149103529499,
+        "pit_ks": 0.4294267740290592
+    },
+    "G: Matern\u00bd\nF: Matern1\u00bd": {
+        "log_likelihood": -7617.154073870872,
+        "n_predictions": 19200,
+        "description": "Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8) (Generator) Mat\u00e9rn 3/2 (Fitter)",
+        "tau2": 0.09630149103529499,
+        "pit_ks": 0.3488632783182991
+    },
+    "G: SE\nF: Matern2\u00bd": {
+        "log_likelihood": -5967.382782440202,
+        "n_predictions": 19200,
+        "description": "Radial Basis Function (Squared Exponential) \u03bb=(1,8) (Generator) Mat\u00e9rn 5/2 (Fitter)",
+        "tau2": 0.09630149103529499,
+        "pit_ks": 0.38001977966618516
+    },
+    "G: Matern\u00bd\nF: Matern2\u00bd": {
+        "log_likelihood": -6988.183051949423,
+        "n_predictions": 19200,
+        "description": "Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8) (Generator) Mat\u00e9rn 5/2 (Fitter)",
+        "tau2": 0.09630149103529499,
+        "pit_ks": 0.2554964940589724
+    },
+    "G: SE\nF: SE": {
+        "log_likelihood": -3289.931995821368,
+        "n_predictions": 19200,
+        "description": "Radial Basis Function (Squared Exponential) \u03bb=(1,8) (Generator) Radial Basis Function (Squared Exponential) (Fitter)",
+        "tau2": 0.09630149103529499,
+        "pit_ks": 0.2258703610512457
+    },
+    "G: Matern\u00bd\nF: SE": {
+        "log_likelihood": -58171.35876464794,
+        "n_predictions": 19200,
+        "description": "Mat\u00e9rn 1/2 (Exponential) \u03bb=(1,8) (Generator) Radial Basis Function (Squared Exponential) (Fitter)",
+        "tau2": 0.09630149103529499,
+        "pit_ks": 0.19392134622096024
+    }
+}
