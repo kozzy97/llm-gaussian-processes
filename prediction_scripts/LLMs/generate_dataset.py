@@ -71,11 +71,12 @@ def gen_gp_dataset(seed: int,
                 # Build "text" from the actual sampled sequence
                 lines = [f"X: {x[0]:.6f}, Y: {y:.6f}" for x,y in zip(sampled_X, sampled_Y)]
                 line_str = ""
-                for line in lines:
+                for line, y in zip(lines, sampled_Y):
+                    prompt = line_str + line.rsplit(" ", 1)[0] + " " # context so far plus "X: <x>, Y: "
                     line_str += f"{line}\n"
                     entry = {
-                        "prompt":              line_str[:-9].rstrip("-"), # remove last number and any spurious minus signs
-                        "ground_truth":        float(line_str[-9:-2]), # store as gold
+                        "prompt":              prompt,
+                        "ground_truth":        float(f"{y:.6f}"), # store as gold, same value as written in the text
                         "seed":                seed,
                         "kernel":              "RBF",
                         "length_scale":        ls,
